@@ -9,7 +9,7 @@ namespace CommitsOfFury
     {
         public string TheThingToSay()
         {
-            return "Hello";
+            return "Hello World";
         }
     }
 }
