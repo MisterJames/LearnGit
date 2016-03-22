@@ -9,7 +9,10 @@ namespace CommitsOfFury
     {
         public string TheThingToSay()
         {
-            return "Hello";
+            var james = "James";
+            var theName = $"{james}";
+
+            return $"{theName}";
         }
     }
 }
