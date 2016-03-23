@@ -9,7 +9,8 @@ namespace CommitsOfFury
     {
         public string TheThingToSay()
         {
-            return "Hello";
+            var localizedString = "everyone";
+            return $"Hello {localizedString}";
         }
     }
 }
